@@ -13,6 +13,7 @@
         <module>mybatisPlus</module>
         <module>rocketMQ</module>
         <module>elasticsearch</module>
+        <module>fastDFS</module>
     </modules>
 
     <!--定义属性值-->
