@@ -45,7 +45,7 @@ public class FastDFSClientUtils {
             }
             storageServer = trackerClient.getStoreStorage(trackerServer);
             storageClient1 = new StorageClient1(trackerServer, storageServer);
-            String fileid = storageClient1.upload_file1(data, extName, meta_list);
+            String fileid = storageClient1.upload_file1(data, extName, null);
             return fileid;
         } catch (Exception ex) {
             logger.error("上传文件异常：{}", ex);

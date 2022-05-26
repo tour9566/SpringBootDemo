@@ -14,6 +14,7 @@
         <module>rocketMQ</module>
         <module>elasticsearch</module>
         <module>fastDFS</module>
+        <module>canal</module>
     </modules>
 
     <!--定义属性值-->
