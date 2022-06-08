@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6a26b21-39dc-4310-b336-cdb7e092f93a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/example/demo/schedulTask/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elasticsearch/target/classes/com/example/demo/DemoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/elasticsearch/target/classes/com/example/demo/DemoApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +64,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -217,7 +212,7 @@
       <workItem from="1651741416960" duration="1269000" />
       <workItem from="1653559812974" duration="1400000" />
       <workItem from="1654658471350" duration="52000" />
-      <workItem from="1654670471872" duration="4455000" />
+      <workItem from="1654670471872" duration="5187000" />
     </task>
     <task id="LOCAL-00001" summary="SpringBootDemo">
       <created>1650539273618</created>
@@ -247,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653560747969</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="elk">
+      <created>1654675977999</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654675977999</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,18 +275,20 @@
     <MESSAGE value="SpringBootDemo" />
     <MESSAGE value="fastDFS配置" />
     <MESSAGE value="canal配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="canal配置" />
+    <MESSAGE value="elk" />
+    <option name="LAST_COMMIT_MESSAGE" value="elk" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="177" key="#Project_Structure" timestamp="1650538106653">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="552" y="177" key="#Project_Structure/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1650538106653" />
-    <state x="504" y="114" key="CommitChangelistDialog2" timestamp="1653560745679">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2424" y="114" key="CommitChangelistDialog2" timestamp="1654675976056">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="504" y="113" key="CommitChangelistDialog2/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1650540940824" />
     <state x="504" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1653560745679" />
+    <state x="2424" y="114" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1654675976055" />
     <state x="1081" y="298" key="FileChooserDialogImpl" timestamp="1654658520021">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -343,17 +347,18 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="490" y="174" key="Maven.ArtifactSearchDialog/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1650532547761" />
-    <state x="2413" y="158" key="SettingsEditor" timestamp="1654670820201">
+    <state x="2413" y="158" key="SettingsEditor" timestamp="1654676745001">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="161" key="SettingsEditor/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1650588644538" />
     <state x="493" y="158" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1653561217109" />
-    <state x="2413" y="158" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1654670820201" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1653560755910">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2413" y="158" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1654676745001" />
+    <state x="2472" y="254" key="Vcs.Push.Dialog.v2" timestamp="1654676755915">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1032/1920.0.1920.1032@0.0.1920.1032" timestamp="1650541152398" />
     <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1653560755910" />
+    <state x="2472" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1654676755915" />
     <state x="754" y="438" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1651218178084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
