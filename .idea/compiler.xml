@@ -8,12 +8,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="redis" />
-        <module name="fastDFS" />
+        <module name="spark" />
+        <module name="flink" />
+        <module name="spark_spider" />
+        <module name="elasticsearch" />
         <module name="rocketMQ" />
         <module name="mybatisPlus" />
         <module name="canal" />
-        <module name="elasticsearch" />
+        <module name="fastDFS" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="flink" options="" />
+      <module name="spark" options="" />
+    </option>
   </component>
 </project>

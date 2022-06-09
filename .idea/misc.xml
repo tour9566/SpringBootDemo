@@ -5,6 +5,9 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spark/pom.xml" />
+        <option value="$PROJECT_DIR$/spark_spider/pom.xml" />
+        <option value="$PROJECT_DIR$/flink/pom.xml" />
       </list>
     </option>
   </component>
