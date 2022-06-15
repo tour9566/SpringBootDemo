@@ -1,7 +1,6 @@
 package org.example.edu.analysis.streaming
 
-import cn.itcast.edu.bean.Answer
-import cn.itcast.edu.utils.RedisUtil
+
 import com.google.gson.Gson
 import org.apache.kafka.clients.consumer.ConsumerRecord
 import org.apache.kafka.common.serialization.StringDeserializer
@@ -11,6 +10,8 @@ import org.apache.spark.sql.{DataFrame, SaveMode, SparkSession}
 import org.apache.spark.streaming.dstream.{DStream, InputDStream}
 import org.apache.spark.streaming.kafka010.{ConsumerStrategies, KafkaUtils, LocationStrategies}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
+import org.example.edu.bean.Answer
+import org.example.edu.utils.RedisUtil
 import redis.clients.jedis.Jedis
 
 /**

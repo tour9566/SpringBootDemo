@@ -21,7 +21,7 @@ object RDDDemo01_Create {
     val rdd3: RDD[Int] = sc.makeRDD(1 to 10)//底层是parallelize //8
     val rdd4: RDD[Int] = sc.makeRDD(1 to 10,4) //4
 
-    //RDD[一行行的数据]
+//    //RDD[一行行的数据]
     val rdd5: RDD[String] = sc.textFile("data/input/words.txt")//2
     val rdd6: RDD[String] = sc.textFile("data/input/words.txt",3)//3
     //RDD[一行行的数据]

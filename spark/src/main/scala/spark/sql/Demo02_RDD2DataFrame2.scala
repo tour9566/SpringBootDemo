@@ -1,6 +1,6 @@
 package org.example.sql
 
-import cn.itcast.sql.Demo02_RDD2DataFrame1.Person
+import org.example.sql.Demo02_RDD2DataFrame1.Person
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
 import org.apache.spark.sql.{DataFrame, SparkSession}

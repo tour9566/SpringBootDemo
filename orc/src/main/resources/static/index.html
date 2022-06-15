@@ -1,0 +1,21 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<head>
+    <title>example</title>
+</head>
+<body>
+<hr>
+<h1>OCR example</h1>
+<form action="/ocr"
+      enctype="multipart/form-data" method="post">
+    image <input type="file" name="image">
+    <br><br>
+    language:<input type="text" name="language" value="chi_sim">
+    <br><br>
+    <input type="submit" value="submit">
+</form>
+<hr>
+This application is based on tesseract ocr,leptonica.<br>
+swagger api:<a href="swagger-ui.html"> OCR API </a>
+</body>
+</html>

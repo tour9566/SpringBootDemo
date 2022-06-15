@@ -1,0 +1,29 @@
+servlet:
+  multipart:
+    max-file-size: 128MB #上传文件总大值
+    max-request-size: 20MB  #单个文件的最大值
+
+ocr:
+  tessdata: C:\Windows\Fonts   #语言包路径
+  file_suffix:   #可识别的文件后缀
+    - .jpg
+    - .jpeg
+    - .png
+    - .bmp
+
+spring:
+  application:
+    name: demo
+
+  freemarker:
+    enabled: true
+    content-type: text/html
+    suffix: .html  #后缀名
+    charset: UTF-8 #编码格式
+    template-loader-path: classpath:/templates/ #此为freemarker默认配置
+server:
+  port: 8090
+
+#字体
+font: Candara.ttc
+user-ftl: user-ftl.html

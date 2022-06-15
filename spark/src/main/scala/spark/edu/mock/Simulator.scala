@@ -5,7 +5,7 @@ import java.sql.Timestamp
 import java.text.SimpleDateFormat
 import java.util.Date
 
-import cn.itcast.edu.bean.Answer
+import org.example.edu.bean.Answer
 import com.google.gson.Gson
 
 import scala.collection.mutable.ArrayBuffer

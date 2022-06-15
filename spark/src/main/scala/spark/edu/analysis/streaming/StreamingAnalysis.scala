@@ -1,9 +1,10 @@
 package org.example.edu.analysis.streaming
 
-import cn.itcast.edu.bean.Answer
+
 import com.google.gson.Gson
 import org.apache.spark.SparkContext
 import org.apache.spark.sql.{DataFrame, Dataset, Row, SparkSession}
+import org.example.edu.bean.Answer
 
 /**
  * Author itcast

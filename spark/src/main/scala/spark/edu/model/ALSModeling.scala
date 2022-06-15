@@ -1,7 +1,7 @@
 package org.example.edu.model
 
-import cn.itcast.edu.bean.{Answer, Rating}
-import cn.itcast.edu.utils.RedisUtil
+import org.example.edu.bean.{Answer, Rating}
+import org.example.edu.utils.RedisUtil
 import com.google.gson.Gson
 import org.apache.spark.ml.evaluation.RegressionEvaluator
 import org.apache.spark.ml.recommendation.{ALS, ALSModel}
